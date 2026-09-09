@@ -1,0 +1,26 @@
+max_buy_now_price: 3000
+max_current_bid: 3000
+max_estimated_bid: 4000
+max_distance_miles: 150
+min_deal_score: 70
+scan_interval_minutes: 15
+repair_contingency_percent: 20
+desired_profit: 2500
+preferred_makes: []
+preferred_models: []
+excluded_makes: []
+excluded_damage_types:
+  - severe frame damage
+  - burn/fire damage
+  - engine seized
+  - engine missing
+  - transmission missing
+  - parts-only
+  - non-repairable
+  - excessive structural damage
+  - missing major components
+maximum_mileage:
+minimum_profit: 0
+maximum_repair_cost:
+database_url: sqlite:///data/auction_deals.db
+log_level: INFO
