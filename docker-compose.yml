@@ -1,0 +1,6 @@
+services:
+  auction_deal_finder:
+    build: .
+    command: python -m app.main --dev
+    volumes:
+      - ./data:/app/data
